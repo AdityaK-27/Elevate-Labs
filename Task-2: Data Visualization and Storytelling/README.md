@@ -44,7 +44,7 @@ The data for this project is sourced from the Kaggle dataset:
    - Insight: Product-level profit gaps and geographic red flags were exposed.
 
 📷 **Dashboard Screenshot:**
-![Sales & Profit Analysis](Sales%20&%20Profit%20Analysis-%20Superstore.png)
+![Sales & Profit Analysis](https://github.com/AdityaK-27/Elevate-Labs/blob/main/Task-2%3A%20Data%20Visualization%20and%20Storytelling/Sales%20%26%20Profit%20Analysis-%20Superstore.png)
 
 ---
 
@@ -63,7 +63,7 @@ The data for this project is sourced from the Kaggle dataset:
    - Insight: Consumers tend to choose faster (but less profitable) options like Same Day.
 
 📷 **Dashboard Screenshot:**
-![Shipping Strategy Impact](Shipping%20Strategy%20Impact%20Dashboard.png)
+![Shipping Strategy Impact](https://github.com/AdityaK-27/Elevate-Labs/blob/main/Task-2%3A%20Data%20Visualization%20and%20Storytelling/Shipping%20Strategy%20Impact%20Dashboard.png)
 
 ---
 
@@ -80,7 +80,7 @@ The data for this project is sourced from the Kaggle dataset:
 
 ✅ `Sales & Profit Analysis- Superstore.png`  
 ✅ `Shipping Strategy Impact Dashboard.png`  
-✅ `README.md` documenting entire project  
+✅ `README.md` documenting entire process step by step
 
 ✨ Done by: **Aditya Kankarwal**
 
