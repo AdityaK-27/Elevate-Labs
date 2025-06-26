@@ -1,6 +1,11 @@
 Task - 3
 # 📊 Superstore Sales Dashboard - Power BI Project
 
+📅 Date: 26-06-2025  
+📂 Task: Dashboard Design
+
+---
+
 ## 📝 Project Overview
 This project involves designing a dynamic and interactive sales dashboard using the **Sample Superstore dataset** in **Power BI**. The goal is to help stakeholders analyze sales performance, profit trends, and regional insights using well-designed visual elements, KPIs, and slicers.
 
