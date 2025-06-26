@@ -35,4 +35,31 @@ Specifically, I:
 
 ---
 
+## 🗓️ Day 3 Progress  
+On the third day, I worked on building an **interactive sales dashboard in Power BI** using the Sample Superstore dataset. The focus was on data cleaning, DAX-based KPIs, visual storytelling, and exporting the final report.
+
+Specifically, I:
+- Imported and cleaned the `Order Date` column using Power Query (Trim, Clean, and Date conversion with locale).
+- Extracted time-based fields: `Year`, `Month`, `Month Number`, and `Quarter` for time-series analysis.
+- Built key KPI cards for:
+  - Total Sales
+  - Total Profit
+  - Total Orders (DAX: `DISTINCTCOUNT`)
+  - Profit Margin % (DAX formula)
+- Created a visual dashboard using:
+  - Line chart for sales over time
+  - Bar chart for sales by sub-category
+  - Donut chart for profit by segment
+  - Geo map for state-wise performance
+  - Matrix for region vs category analysis
+- Added slicers for Year, Region, Segment, and Category to enhance interactivity.
+- Applied a clean visual theme with consistent color coding (blue for sales, green for profit, etc.)
+- Exported the final dashboard as a PDF for submission and stakeholder presentation.
+- Updated the project-level `README.md` with all detailed steps, visuals, and insights.
+
+📂 Files created:
+- `Superstore_Dashboard.pbix` – Power BI dashboard file
+- `Superstore_Dashboard.pdf` – Exported dashboard report
+- `README.md` – Full documentation of Day 3 project work
+
 This README will be continuously updated as the internship progresses. I’m excited to learn more and tackle more complex challenges ahead!
