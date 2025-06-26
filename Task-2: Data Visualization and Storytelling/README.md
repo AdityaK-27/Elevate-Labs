@@ -1,7 +1,7 @@
 Task - 2
 # 📊 Tableau Sales Dashboard – Superstore Dataset
 
-📅 Date: 24-06-2025 (Day 2)  
+📅 Date: 24-06-2025  
 📂 Task: Data Visualization and Storytelling  
 🎯 Objective: Create visual dashboards in Tableau that uncover key business insights using effective storytelling techniques.
 
