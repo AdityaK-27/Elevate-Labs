@@ -1,8 +1,3 @@
-Thanks for the clarification! Here's the corrected version of your README.md code, updated to reflect that the final deliverable was a PDF export, not a PowerPoint file.
-
-markdown
-Copy
-Edit
 # 📊 Superstore Sales Dashboard - Power BI Project
 
 ## 📝 Project Overview
