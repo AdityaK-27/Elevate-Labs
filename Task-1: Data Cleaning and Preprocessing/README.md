@@ -1,6 +1,6 @@
 Task 1: Data Cleaning and Preprocessing
 
-## 📅 Date: 23-06-2025 (Day 1)
+## 📅 Date: 23-06-2025
 ## 📂 Task: Data Cleaning and Preprocessing (Excel-based)
 
 ---
