@@ -6,21 +6,34 @@ Task - 4
 
 ---
 
-## Overview
-This project dives into Netflix’s content catalog to perform an in-depth analysis using SQL. The aim is to uncover patterns, trends, and insights related to the platform’s Movies and TV Shows. The following sections detail the project’s goals, the questions explored, methods used, and key takeaways from the analysis.
+## 📝 Project Overview
+This project analyzes Netflix's content catalog using SQL to extract valuable business insights. By querying a structured dataset of Movies and TV Shows, the goal was to answer key business questions and practice advanced SQL techniques like subqueries, joins, views, and indexing.
 
-## Objectives
+## ✅ Project Objectives
 
-- Study how content is distributed between Movies and TV Shows.
-- Discover which ratings appear most often across different content types.
-- Investigate trends based on release year, country of origin, and duration.
-- Classify content using keyword-based logic to extract targeted insights.
+- Explore Netflix’s content trends by type, country, release year, and genre
+- Identify top-performing countries, directors, and actors
+- Create SQL queries using `GROUP BY`, `ORDER BY`, `ILIKE`, `JOIN`, and `VIEW`
+- Classify content using keyword-based filtering
+- Demonstrate query optimization techniques via indexing
 
-## Dataset
+---
+
+## 📦 Dataset
 
 The data for this project is sourced from the Kaggle dataset:
 
 - **Dataset Link:** [Kaggle Dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download)
+
+---
+
+## 🧰 Tools & Technologies Used
+
+- **PostgreSQL** (for writing and executing queries)
+- **GitHub** (for code, screenshots, and documentation)
+- **Kaggle** (for dataset)
+
+---
 
 ## Schema
 
@@ -53,10 +66,9 @@ SELECT
 FROM netflix
 GROUP BY type;
 ```
-#### Output:
-
-
 **Objective:** Determine the distribution of content types on Netflix.
+#### Output:
+![Output](https://github.com/AdityaK-27/Elevate-Labs/blob/main/Task-4%3A%20SQL%20for%20Data%20Analysis/1.png)
 
 ### 2. Find the Most Common Rating for Movies and TV Shows
 
@@ -77,8 +89,9 @@ GROUP BY 1,2
 WHERE 
 	ranking = 1;
 ```
-
 **Objective:** Identify the most frequently occurring rating for each type of content.
+#### Output:
+![Output](https://github.com/AdityaK-27/Elevate-Labs/blob/main/Task-4%3A%20SQL%20for%20Data%20Analysis/2.png)
 
 ### 3. List All Movies Released in a Specific Year (e.g., 2020)
 
@@ -91,6 +104,8 @@ WHERE
 ```
 
 **Objective:** Retrieve all movies released in a specific year.
+#### Output:
+![Output](https://github.com/AdityaK-27/Elevate-Labs/blob/main/Task-4%3A%20SQL%20for%20Data%20Analysis/3.png)
 
 ### 4. Find the Top 5 Countries with the Most Content on Netflix
 
@@ -108,6 +123,8 @@ LIMIT 5;
 ```
 
 **Objective:** Identify the top 5 countries with the highest number of content items.
+#### Output:
+![Output](https://github.com/AdityaK-27/Elevate-Labs/blob/main/Task-4%3A%20SQL%20for%20Data%20Analysis/4.png)
 
 ### 5. Identify the Longest Movie
 
@@ -125,6 +142,8 @@ LIMIT 1;
 ```
 
 **Objective:** Find the movie with the longest duration.
+#### Output:
+![Output](https://github.com/AdityaK-27/Elevate-Labs/blob/main/Task-4%3A%20SQL%20for%20Data%20Analysis/5.png)
 
 ### 6. Find Content Added in the Last 5 Years
 
@@ -137,6 +156,8 @@ WHERE
 ```
 
 **Objective:** Retrieve content added to Netflix in the last 5 years.
+#### Output:
+![Output](https://github.com/AdityaK-27/Elevate-Labs/blob/main/Task-4%3A%20SQL%20for%20Data%20Analysis/6.png)
 
 ## 📌 Advanced SQL Features
 ### 7. JOIN with Ratings Description Table
@@ -168,6 +189,8 @@ LEFT JOIN ratings_info r
 LIMIT 10;
 ```
 **Objective**: Enrich Netflix data with human-readable rating descriptions using a LEFT JOIN.
+#### Output:
+![Output](https://github.com/AdityaK-27/Elevate-Labs/blob/main/Task-4%3A%20SQL%20for%20Data%20Analysis/7.png)
 
 ### 8. Create a VIEW for Recently Added Content
 
@@ -189,6 +212,9 @@ SELECT
 FROM recent_5_years_content
 GROUP BY type;
 ```
+#### Output:
+![Output](https://github.com/AdityaK-27/Elevate-Labs/blob/main/Task-4%3A%20SQL%20for%20Data%20Analysis/8.png)
+
 ### 9. Optimization with Indexing (Comment Only)
 
 #### To improve performance on frequently searched columns, indexing can be applied as follows:
@@ -211,6 +237,8 @@ WHERE director ILIKE '%Rajiv Chilaka%';
 ```
 
 **Objective:** List all content directed by 'Rajiv Chilaka'.
+#### Output:
+![Output](https://github.com/AdityaK-27/Elevate-Labs/blob/main/Task-4%3A%20SQL%20for%20Data%20Analysis/10.png)
 
 ### 11. List All TV Shows with More Than 5 Seasons
 
@@ -235,6 +263,8 @@ WHERE
 ```
 
 **Objective:** Identify TV shows with more than 5 seasons.
+#### Output:
+![Output](https://github.com/AdityaK-27/Elevate-Labs/blob/main/Task-4%3A%20SQL%20for%20Data%20Analysis/11.png)
 
 ### 12. Count the Number of Content Items in Each Genre
 
@@ -248,6 +278,8 @@ GROUP BY 1;
 ```
 
 **Objective:** Count the number of content items in each genre.
+#### Output:
+![Output](https://github.com/AdityaK-27/Elevate-Labs/blob/main/Task-4%3A%20SQL%20for%20Data%20Analysis/12.png)
 
 ### 13.Find each year and the average numbers of content release in India on netflix. return top 5 year with highest avg content release !
 
@@ -265,6 +297,8 @@ GROUP BY 1;
 ```
 
 **Objective:** Calculate and rank years by the average number of content releases by India.
+#### Output:
+![Output](https://github.com/AdityaK-27/Elevate-Labs/blob/main/Task-4%3A%20SQL%20for%20Data%20Analysis/13.png)
 
 ### 14. List All Movies that are Documentaries
 
@@ -279,6 +313,8 @@ WHERE
 ```
 
 **Objective:** Retrieve all movies classified as documentaries.
+#### Output:
+![Output](https://github.com/AdityaK-27/Elevate-Labs/blob/main/Task-4%3A%20SQL%20for%20Data%20Analysis/14.png)
 
 ### 15. Find All Content Without a Director
 
@@ -291,6 +327,8 @@ WHERE
 ```
 
 **Objective:** List content that does not have a director.
+#### Output:
+![Output](https://github.com/AdityaK-27/Elevate-Labs/blob/main/Task-4%3A%20SQL%20for%20Data%20Analysis/15.png)
 
 ### 16. Find How Many Movies Actor 'Salman Khan' Appeared in the Last 10 Years
 
@@ -306,6 +344,8 @@ WHERE
 ```
 
 **Objective:** Count the number of movies featuring 'Salman Khan' in the last 10 years.
+#### Output:
+![Output](https://github.com/AdityaK-27/Elevate-Labs/blob/main/Task-4%3A%20SQL%20for%20Data%20Analysis/16.png)
 
 ### 17. Find the Top 10 Actors Who Have Appeared in the Highest Number of Movies Produced in India
 
@@ -322,8 +362,9 @@ GROUP BY 1
 ORDER BY 2 DESC
 LIMIT 10;
 ```
-
 **Objective:** Identify the top 10 actors with the most appearances in Indian-produced movies.
+#### Output:
+![Output](https://github.com/AdityaK-27/Elevate-Labs/blob/main/Task-4%3A%20SQL%20for%20Data%20Analysis/17.png)
 
 ### 18. Categorize the content based on the presence of the keywords 'kill' and 'violence' in the description field. Label content containing these keywords as 'Bad' and all other content as 'Good'. Count how many items fall into each category.
 
@@ -342,42 +383,63 @@ GROUP BY 1;
 ```
 
 **Objective:** Categorize content as 'Bad' if it contains 'kill' or 'violence' and 'Good' otherwise. Count the number of items in each category.
-
-## Findings and Conclusion
-
-* **More Movies than Shows**
-  - The data shows that Netflix hosts more movies than TV shows.
-  - This suggests the platform leans more towards one-off content rather than episodic series.
-
-* **Most Common Ratings**
-  - TV-MA and TV-14 are the most frequent ratings.
-  - This indicates that Netflix mainly targets mature teens and adult viewers.
-
-* **Top Countries & India’s Role**
-  - The US, India, and the UK contribute the most content to Netflix.
-  - Content from India has grown in recent years, showing an increase in regional production.
-
-* **Popular Genres**
-  - Drama, International Movies, and Comedies are the most listed genres.
-  - This aligns with Netflix’s global strategy to offer content for a wide range of tastes.
-
-* **Longer Series & Movies**
-  - I identified the longest movie and filtered out TV shows with more than 5 seasons.
-  - This points to Netflix's investment in long-form content that encourages binge-watching.
-
-* **Keyword-Based Content Categorization**
-  - By checking for keywords like “kill” and “violence” in descriptions, content was labeled as either ‘Bad’ or ‘Good’.
-  - This simple categorization gives insight into the presence of intense or violent content.
-
-* **Director & Actor Highlights**
-  - I listed all content by directors like Rajiv Chilaka.
-  - Also found the top 10 actors who appear most often in Indian movies on Netflix.
-
-* **Cleaning & Processing Techniques**
-  - Used SQL functions like `UNNEST`, `SPLIT_PART`, and `STRING_TO_ARRAY` to break down multi-valued columns.
-  - This made the data easier to clean, filter, and analyze effectively.
+#### Output:
+![Output](https://github.com/AdityaK-27/Elevate-Labs/blob/main/Task-4%3A%20SQL%20for%20Data%20Analysis/18.png)
 
 ---
 
-Overall, this project helped me practice advanced SQL techniques and understand how to extract useful business insights from real-world datasets. It reflects the kind of work a data analyst might do when exploring platform performance and content strategy.
+## 🧪 SQL Concepts Demonstrated
 
+- `SELECT`, `WHERE`, `ORDER BY`, `GROUP BY`, `HAVING`
+- `JOIN` operations (LEFT JOIN with a ratings description table)
+- Subqueries using `RANK()` and `WINDOW FUNCTIONS`
+- String manipulation: `ILIKE`, `STRING_TO_ARRAY`, `UNNEST`, `SPLIT_PART`
+- Creation of SQL `VIEWS`
+- Indexing for optimization (commented)
+
+---
+
+## 📊 Key Business Insights
+
+- **More Movies than TV Shows**  
+  Netflix favors single-play content over episodic series.
+
+- **Top Ratings:**  
+  `TV-MA` and `TV-14` dominate, suggesting a focus on mature audiences.
+
+- **Top Countries for Content:**  
+  USA, India, and UK contribute the most titles to the platform.
+
+- **Most Common Genres:**  
+  Drama, International Movies, and Comedy top the list.
+
+- **Keyword-Based Categorization:**  
+  A basic content sentiment analysis was performed by labeling shows containing "kill" or "violence" as "Bad".
+
+- **Director & Actor Trends:**  
+  Queried all content from directors like Rajiv Chilaka, and ranked Indian actors by their number of appearances.
+
+---
+
+## 🧠 Advanced SQL Additions
+
+### 🔹 Join with Ratings Info Table
+
+Enriched data using a `LEFT JOIN` with a `ratings_info` table that explains rating codes like `TV-MA`, `PG`, etc.
+
+### 🔹 SQL View for Recent Additions
+
+Created a `VIEW` named `recent_5_years_content` to analyze titles added in the past 5 years.
+
+### 🔹 Indexing Suggestions
+
+Indexed `director`, `country`, and `rating` fields (commented) to optimize common filter queries.
+
+---
+
+## 📎 Final Deliverables
+- ✅ `README.md` – Complete project documentation (this file)
+
+---
+
+✨ Done by: **Aditya Kankarwal**
