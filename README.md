@@ -62,4 +62,31 @@ Specifically, I:
 - `Superstore_Dashboard.pdf` – Exported dashboard report
 - `README.md` – Full documentation of Day 3 project work
 
+---
+
+## 📅 Day 4 Progress  
+On the fourth day, I focused on SQL for Data Analysis using the Netflix Movies and TV Shows dataset. The goal was to uncover actionable insights through structured querying and database techniques.
+
+Specifically, I:
+- Set up the PostgreSQL environment and imported the Netflix dataset.
+- Wrote SQL queries to answer business questions involving:
+  - Content types (Movies vs TV Shows)
+  - Most common ratings
+  - Country-wise content distribution
+  - Longest movie, recent additions, and genre-based counts
+- Applied **advanced SQL features**:
+  - Used `UNNEST`, `STRING_TO_ARRAY`, and `ILIKE` for multi-valued and fuzzy fields.
+  - Created a `VIEW` for recent additions and used it for time-based aggregation.
+  - Implemented `JOIN` with a new ratings description table for better interpretability.
+  - Wrote subqueries using `RANK()` and `WINDOW FUNCTIONS`.
+- Recommended indexing strategies on frequently filtered columns like `country`, `rating`, and `director`.
+- Exported screenshots of all SQL query outputs and committed them to GitHub.
+
+📂 Files created:
+- `README.md` – Updated documentation with objectives, insights, and visual evidence
+
+📌 The Netflix project now stands as a complete and robust SQL analysis task demonstrating real-world querying capabilities and insight generation.
+
+---
+
 This README will be continuously updated as the internship progresses. I’m excited to learn more and tackle more complex challenges ahead!
