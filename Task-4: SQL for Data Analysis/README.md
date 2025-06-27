@@ -53,6 +53,8 @@ SELECT
 FROM netflix
 GROUP BY type;
 ```
+#### Output:
+
 
 **Objective:** Determine the distribution of content types on Netflix.
 
