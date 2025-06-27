@@ -178,8 +178,9 @@ SELECT
 FROM netflix
 WHERE 
     TO_DATE(date_added, 'Month DD, YYYY') >= CURRENT_DATE - INTERVAL '5 years';
-Objective: Reuse logic by creating a view for recent content analysis.
 ```
+**Objective**: Reuse logic by creating a view for recent content analysis.
+
 #### Example Usage:
 
 ```sql
@@ -190,7 +191,7 @@ GROUP BY type;
 ```
 ### 9. Optimization with Indexing (Comment Only)
 
-#### ✅ To improve performance on frequently searched columns, indexing can be applied as follows:
+#### To improve performance on frequently searched columns, indexing can be applied as follows:
 
 ```sql
 -- Recommended Indexes
