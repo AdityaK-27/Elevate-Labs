@@ -144,5 +144,7 @@ This project demonstrates a complete EDA workflow: data loading, cleaning, featu
 - netflix_eda_AdityaKankarwal.ipynb – Jupyter Notebook
 - netflix_eda.pdf – Optional PDF version
 
+---
 
+✨ Done by: **Aditya Kankarwal**
 
