@@ -1,4 +1,10 @@
-# 🎬 Netflix Data Analysis – Exploratory Data Analysis (EDA)
+Task - 5
+# 📊 Netflix Data Analysis – Exploratory Data Analysis (EDA)
+
+📅 Date: 30-06-2025  
+📂 Task: Exploratory Data Analysis (EDA)
+
+---
 
 ## 📌 Project Overview
 
