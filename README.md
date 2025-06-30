@@ -89,4 +89,35 @@ Specifically, I:
 
 ---
 
+## 📅 Day 5 Progress  
+On the fifth day, I focused on **Exploratory Data Analysis (EDA)** using the Netflix Movies and TV Shows dataset. The objective was to extract insights using Python's statistical and visual libraries.
+
+Specifically, I:
+- Loaded and inspected the `netflix_titles.csv` dataset using `pandas`.
+- Performed data cleaning by:
+  - Handling missing values in `director`, `cast`, `country`, `rating`, and `date_added`.
+  - Creating new features such as `year_added`, `month_added`, and `duration_type`.
+- Conducted **Univariate and Bivariate Analysis** using `seaborn` and `matplotlib`:
+  - Visualized distribution of content types (Movies vs TV Shows)
+  - Analyzed rating frequency and country-wise content contribution
+  - Examined temporal trends in content additions over the years
+  - Compared content formats using the `duration_type` column
+- Generated a **correlation heatmap** on time-based features to check interdependencies.
+- Documented every step with code blocks, inline explanations, and observations.
+- Created a structured `README.md` explaining the full process with:
+  - Project overview
+  - Steps followed with code and explanations
+  - Visual insights and observations
+  - Summary of findings
+- Initiated generation of a `.pdf` report to summarize the project in document form.
+
+📂 Files created:
+- `netflix_EDA_AdityaKankarwal.ipynb` – Jupyter Notebook with complete EDA process
+- `README.md` – Full walkthrough of the EDA project
+- `Task-5_Repo` – Concise report version for submission
+
+📌 With this, the project transitions from structured querying (SQL) to visual and statistical analysis (Python), showcasing versatile data analysis capabilities across tools.
+
+---
+
 This README will be continuously updated as the internship progresses. I’m excited to learn more and tackle more complex challenges ahead!
