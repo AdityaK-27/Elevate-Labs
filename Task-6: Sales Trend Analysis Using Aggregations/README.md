@@ -57,6 +57,8 @@ GROUP BY
 ORDER BY
     year, month;
 ```
+#### Output:
+![Output](https://github.com/AdityaK-27/Elevate-Labs/blob/main/Task-6%3A%20Sales%20Trend%20Analysis%20Using%20Aggregations/monthly_sales_summary_2024.png)
 
 ## 📈 Analysis Summary
 
