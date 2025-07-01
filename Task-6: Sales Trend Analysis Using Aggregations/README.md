@@ -74,12 +74,13 @@ ORDER BY
 - ✅ Results exported as monthly_sales_summary_2024.png for reporting
 
 
----
-
-✨ Done by: **Aditya Kankarwal**
 ## 📚 Key Learnings
 
 - Practical use of EXTRACT() and GROUP BY for time-based trend analysis
 - Using SUM() and COUNT(DISTINCT) for performance metrics
 - How to filter results to specific timeframes and sort them meaningfully
 - Real-world application of SQL in business analytics
+
+---
+
+✨ Done by: **Aditya Kankarwal**
