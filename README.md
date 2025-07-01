@@ -120,4 +120,34 @@ Specifically, I:
 
 ---
 
+## 📅 Day 6 Progress  
+On the sixth day, I focused on **Sales Trend Analysis Using Aggregations** in PostgreSQL. The objective was to analyze **monthly revenue** and **order volume** using SQL techniques to extract time-based business insights.
+
+Specifically, I:
+- Used a custom `online_sales.csv` dataset containing transaction-level sales data.
+- Created a relational table `online_sales` in PostgreSQL via pgAdmin.
+- Imported the dataset after transforming date formats for compatibility.
+- Wrote an SQL aggregation query that:
+  - Extracts `YEAR` and `MONTH` from the `date` field
+  - Computes `SUM(total_revenue)` as monthly revenue
+  - Computes `COUNT(DISTINCT transaction_id)` as monthly order volume
+  - Filters results for the year **2024**
+  - Groups and orders results by year and month
+- Verified the output table for trends in sales and volume over time.
+- Exported the query output as `monthly_sales_summary_2024.csv`.
+- Wrote a structured `README.md` that includes:
+  - Project overview and dataset structure
+  - SQL script used for analysis
+  - Summary of observed trends and insights
+  - Key SQL functions demonstrated: `EXTRACT()`, `SUM()`, `COUNT()`, `GROUP BY`, `ORDER BY`, and `WHERE BETWEEN`.
+
+📂 Files created:
+- `sales_trend_analysis.sql` – SQL script for revenue and order volume trend analysis  
+- `monthly_sales_summary_2024.csv` – Output of aggregated query  
+- `README.md` – Detailed documentation of Task 6, covering objectives, code, and analysis
+
+📌 This task reinforced my skills in **SQL-based data aggregation**, date manipulation, and time-series grouping. It also emphasized the importance of clean data and well-structured queries for deriving actionable insights.
+
+---
+
 This README will be continuously updated as the internship progresses. I’m excited to learn more and tackle more complex challenges ahead!
