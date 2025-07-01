@@ -69,7 +69,7 @@ ORDER BY
 
 - ✅ online_sales table created and populated in PostgreSQL
 - ✅ SQL aggregation query executed successfully
-- ✅ Results exported as monthly_sales_summary_2024.csv for reporting
+- ✅ Results exported as monthly_sales_summary_2024.png for reporting
 
 
 ---
