@@ -94,9 +94,8 @@ GROUP BY
 
 A bar chart was generated using Matplotlib to display revenue per product.
 
-> If you're using this on GitHub, make sure to upload the chart image as `sales_chart.png` in the same folder.
 
-![sales_chart.png](sales_chart.png)
+![sales_chart.png](https://github.com/AdityaK-27/Elevate-Labs/blob/main/Task-7%3A%20Get%20Basic%20Sales%20Summary%20from%20a%20Tiny%20SQLite%20Database%20using%20Python/sales_chart.png)
 
 ---
 
