@@ -150,4 +150,41 @@ Specifically, I:
 
 ---
 
+📅 Day 7 Progress  
+On the seventh day, I focused on performing a Basic Sales Summary using SQLite and Python. The goal was to extract simple but valuable insights such as total quantity sold and total revenue per product by integrating SQL queries within a Python workflow.
+
+Specifically, I:
+
+- Created a sample SQLite database `sales_data.db` with a table named `sales`.
+- Inserted multiple product records with fields: product, quantity, and price.
+- Connected to the SQLite database using Python’s built-in `sqlite3` module.
+- Wrote and executed an SQL aggregation query that:
+  - Groups sales data by product
+  - Computes `SUM(quantity)` as total quantity sold
+  - Computes `SUM(quantity * price)` as total revenue
+- Loaded the query results into a Pandas DataFrame for further analysis.
+- Printed the summarized output to visually confirm the aggregation logic.
+- Used Matplotlib to generate a bar chart visualizing revenue per product.
+- Saved the visualization as `sales_chart.png` for documentation and reporting.
+- Wrote a structured `README.md` covering:
+  - Objective and tools used
+  - Dataset structure
+  - SQL query and approach
+  - Output table and chart
+  - Insights and takeaways
+
+📂 Files created:
+
+- `sales_summary.ipynb` – Python notebook with SQL + data viz pipeline  
+- `sales_chart.png` – Bar chart visualizing revenue per product  
+- `README.md` – Comprehensive documentation of Task 7
+
+📌 This task helped reinforce key skills in:
+- Writing SQL queries within Python scripts
+- Using SQLite as a lightweight embedded database
+- Aggregating and summarizing transactional data
+- Visualizing SQL query results using Matplotlib
+
+---
+
 This README will be continuously updated as the internship progresses. I’m excited to learn more and tackle more complex challenges ahead!
