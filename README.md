@@ -150,7 +150,7 @@ Specifically, I:
 
 ---
 
-📅 Day 7 Progress  
+## 📅 Day 7 Progress  
 On the seventh day, I focused on performing a Basic Sales Summary using SQLite and Python. The goal was to extract simple but valuable insights such as total quantity sold and total revenue per product by integrating SQL queries within a Python workflow.
 
 Specifically, I:
@@ -187,7 +187,7 @@ Specifically, I:
 
 ---
 
-📅 Day 8 Progress  
+## 📅 Day 8 Progress 
 On the eighth day, I focused on creating a **Simple Sales Dashboard** using Power BI. The goal was to build an interactive visual dashboard that presents sales performance by product category, region, and over time.
 
 Specifically, I:
