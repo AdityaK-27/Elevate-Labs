@@ -187,4 +187,32 @@ Specifically, I:
 
 ---
 
+📅 Day 8 Progress  
+On the eighth day, I focused on creating a **Simple Sales Dashboard** using Power BI. The goal was to build an interactive visual dashboard that presents sales performance by product category, region, and over time.
+
+Specifically, I:
+
+- Imported the `Sample - Superstore.csv` dataset into Power BI.
+- Converted the `Order Date` column into a “Month-Year” format using DAX for temporal analysis.
+- Created a new sorting column `MonthYearSort` to ensure correct chronological ordering in visuals.
+- Designed three key visual components:
+  - **Line Chart** to show Sales trends across months.
+  - **Bar Chart** to compare Sales by Region.
+  - **Donut Chart** to visualize Sales by Product Category.
+- Added a **Slicer** to allow users to filter the dashboard by Region dynamically.
+- Applied **custom color formatting** to highlight top-performing regions and categories for better visual emphasis.
+- Saved the entire dashboard as a `.pbix` file for future reference and further editing.
+
+📂 Files created:
+
+- `simple_sales_dashboard.pbix` – Interactive Power BI file containing the final dashboard
+
+📌 This task helped reinforce key skills in:
+- Building clean, interactive dashboards using Power BI
+- Applying DAX functions for time formatting and sorting
+- Visual storytelling with multiple chart types
+- Using slicers and colors to enhance interactivity and insights
+
+---
+
 This README will be continuously updated as the internship progresses. I’m excited to learn more and tackle more complex challenges ahead!
