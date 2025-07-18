@@ -59,9 +59,9 @@ To build a dashboard that helps:
 
 ## 📊 Dashboard Preview
 
-![Dashboard Screenshot](path_to_your_screenshot_or_use_live_link)
+![Dashboard Screenshot](https://github.com/AdityaK-27/Elevate-Labs/blob/main/Final%20Project/Dashboard%201.png)
 
-🔗 **Live Dashboard**: [View on Tableau Public](your_dashboard_link_here)
+🔗 **Live Dashboard**: [View on Tableau Public](https://public.tableau.com/views/GlobalCOEmissionsTrackerbySector/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 <br/>
 
